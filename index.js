@@ -51,7 +51,6 @@ app.get('/test/api/image/:image_id', function (req, res) {
     } else {
         height = 500
     }
-
     // [END default_size]
     
     var image_id = req.params.image_id;
