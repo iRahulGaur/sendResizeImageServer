@@ -34,7 +34,7 @@ function resize(path, format, width, height) {
 ```
 
 Currently in the code, there is a default size for all images; 500
-If you want to get the orignal image when no params are given, use below code [https://github.com/iRahulGaur/sendResizeImageServer/blob/728f73d6587bf9c7db0f4314588f5ede717aa2b9/index.js#L39](here)
+If you want to get the orignal image when no params are given, use below code [https://github.com/iRahulGaur/sendResizeImageServer/blob/b20df33133db6b5d3b81605b5f3f340ae83671b6/index.js#L41-L53](here)
 
 ### Default image without resizing
 ```
