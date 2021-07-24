@@ -3,7 +3,7 @@ send image with desired size from node server
 
 ## This app is for getting image from node server in a desired size
 
-EG: https://server.com/test/api/image/image_name?height=512&width=512
+EG: https://example.com/test/api/image/image_name?height=512&width=512
 
 What this url will do, it will just throw a stream of the selected image file with the inserted dimentions, i.e., 512 x 512
 
