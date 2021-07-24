@@ -36,6 +36,8 @@ app.get('/test/api/image/:image_id', function (req, res) {
     // get url parameters
     const widthString = search_params.width;
     const heightString = search_params.height;
+    
+    // [START default_size]
     // Parse to integer if possible
     let width, height
     if (widthString) {
@@ -50,6 +52,8 @@ app.get('/test/api/image/:image_id', function (req, res) {
         height = 500
     }
 
+    // [END default_size]
+    
     var image_id = req.params.image_id;
 
     //return image file using name
